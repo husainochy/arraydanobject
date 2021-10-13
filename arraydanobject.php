@@ -22,6 +22,14 @@ $siswaArr = array(
                 'progress' => 40
             )
         ),
+		array(
+            'nama' => 'nurul',
+            'umur' => '9 tahun',
+            'trackers' => array(
+                'masuk' => '20 juni 2019',
+                'progress' => 40
+            )
+        ),
     )
 );
 
@@ -43,9 +51,17 @@ $siswaObj = (object)[
         ],
         (object)[
             'nama' => 'wira',
-            'umur' => 8,
+            'umur' => 7,
             's' => (object)[
                 'masuk' => '10 juni 2019',
+                'semester' => 1
+            ]
+        ],
+		(object)[
+            'nama' => 'nurul',
+            'umur' => 9,
+            's' => (object)[
+                'masuk' => '20 juni 2019',
                 'semester' => 1
             ]
         ],
